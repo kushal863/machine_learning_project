@@ -1,0 +1,89 @@
+# Step to clone the git hub repositsary.
+git clone githublink
+
+
+Use case:
+Why we need to put code on github.
+1.
+Two devloper working on same project.
+kushal
+vikrant
+these are living in two diff countries.
+they are working on the same project.
+ they can clone the github as we did and share the code.
+
+kushal - us
+vikrant- in
+
+create a repo...sample
+sample
+kushal example.txt
+vikrant example.txt.. he has send this file to sample report. but didn't informed. 1:pm
+kushal is also creating a file example2.txt. 2:00 PM
+when kushal try to send this file to git.. he will get message like you do not have updated
+contend.
+not need to clone everytime. this is only for first time.
+for this we have to download missing files. it will all the files in the git hub system.
+and bring the missing files in our system.
+git pull: To bring changes
+after bringing the missing file. we are able to puch code in the git hub report.
+
+2. Version control system.(Basically you would be have backup of your code).
+3. Branching:
+
+whwn ever we are working on some project. we need to keep one thing in mind that maintenance.
+ main branch: on 10th june requirement is to create hello world app. release 1
+on 20th june requirement is to ass ui. release 2.
+
+main branch.. orignal(main)
+  replica branch(intergration branch)
+  release 1 june 15--testing done file then try to check on 12 june in integration branch.. then add these changes to main branch 15 june. so client can see.
+  then create branch using integration for relese 2. 18 june create.. then test then merge this with integration.. the merge with orinal.
+
+step by step:
+1. intergration branch.
+Case 1. when we create rel-1_june 15 <<--11th june.. developed "hello world"
+on14th june ing branch the hello world is avaible.
+case 2. we created rel2 june-20.. "hello world" is missing. 17th june completed requirement 2 well tested. bug free.
+18th june we are going yo merge in the intergration branch. on 18 june.. in the intergration branch. do we have intergration branch. yes.
+if its working then we will merge in the main branch.
+
+Merge conflick.
+when two people write code on the same line. then there will be conflict which one we need to keep. either you want to keep both, take one.
+
+
+Docker. it cal run in any system(linux,mac and window)
+1. Postability of our code.
+2. Container.( we can say that its a virtual machine, its a kind of hardware) your application will be managed by container.
+3. Image
+4. Isolation
+
+
+example 1.
+>> pycharm/vscode
+>> python interprator
+>> venv
+>> installed liberaries
+>> project code
+
+dockeriezed>> docker image>
+
+dowload the docker image
+docker pull image name
+docker run img name
+
+Prerequites is any project..
+you need OS at intialsystem.
+
+instruction to set up coomands to create docker image
+create a docker file.. few line of code we have to right
+1 which os.
+2.set folderWorking direcotry.(creating folder)
+3. Copy code(we will have requirement.txt in it as well)
+4.venv( Create and activate)
+5.pip install -r requirement.txt.
+
+to create image.. build image-- d
+
+
+docker provide run time enviroment.

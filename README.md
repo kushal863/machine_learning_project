@@ -41,3 +41,10 @@ to create version/commit all changes by gir
 git commit -m 'message'
 
 git push main origin
+
+
+# for Heroku
+account_key: de1d600e-37cc-4d11-a521-0a0178a7dd22
+
+app-name: ml-first-app1
+account-emailis:kushalskumar14@gmail.com
